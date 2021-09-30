@@ -7,7 +7,13 @@ import Image from 'next/image';
 const name = 'Clem\'s Blog';
 export const siteTitle = 'Clem\'s Blog'
 
-export default function Layout({ children, home }) {
+export default function Layout({ 
+  children, 
+  home
+ }: {
+   children: React.ReactNode
+   home?: boolean
+ }) {
   return ( <div className={styles.container}>
     <Head>
       <link rel="icon" href="/favicon.ico" />

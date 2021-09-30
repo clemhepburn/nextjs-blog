@@ -12,7 +12,7 @@ body {
 }
 
 a {
-  color: #0070f3;
+  color: #e39280;
   text-decoration: none;
 }
 
@@ -23,6 +23,20 @@ a:hover {
 img {
   max-width: 100%;
   display: block;
+}
+
+footer {
+  position: sticky;
+  bottom: 0;
+  height: 60px;
+  margin-bottom: 0;
+  background-color: transparent;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center; 
+  width: 100%;
+  padding: 0 2rem;
 }
 
 

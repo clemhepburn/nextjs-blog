@@ -5,7 +5,7 @@ import Link from 'next/link';
 import Image from 'next/image';
 
 const name = 'Clem\'s Blog';
-export const siteTitle = 'my recurse blog'
+export const siteTitle = 'Clem\'s Blog'
 
 export default function Layout({ children, home }) {
   return ( <div className={styles.container}>
@@ -29,10 +29,10 @@ export default function Layout({ children, home }) {
         <>
           <Image
             priority
-            src="/images/me.png"
+            src="/images/clem1.png"
             alt={name}
-            width={148}
-            height={95}
+            width={228}
+            height={120}
             className={utilStyles.borderCircle}
           />
           <h1 className={utilStyles.heading2Xl}>{name}</h1>
@@ -43,10 +43,10 @@ export default function Layout({ children, home }) {
             <a>
               <Image
                 priority
-                src="/images/me.png"
+                src="/images/clem1.png"
                 className={utilStyles.borderCircle}
-                width={148}
-                height={95}
+                width={228}
+                height={120}
                 alt={name}
               />
             </a>
